@@ -1,0 +1,30 @@
+body {
+	background: #fff;
+}
+#wrapper {
+	padding-top: 30px;
+	line-height: 16px;
+}
+#org {
+	width: 200px;
+	height: 50px;
+	background-color: #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#org:hover {
+	background-color: #eee;
+}
+#org:active {
+	background-color: #aaa;
+}
+a:link { color: #111; text-decoration: none; }
+a:hover { color: #111; text-decoration: underline;}
+a:active { color: #111; }
+a:visited { color: #111; text-decoration: none;}

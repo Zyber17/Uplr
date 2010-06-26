@@ -1,0 +1,22 @@
+body {
+	width: 550px;
+	background: #ffffff;
+	font-family:Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+	color: #111111;
+	font-size: 16px;
+	text-align: left;
+}
+a:link, a:visited { color: #ccc; text-decoration: none; }
+a:hover { color: #ccc; text-decoration: underline;}
+a:active { color: #ccc; }
+#wrapper {
+	position: absolute;
+	padding-top: 40px;
+	width: 550px;
+	left: 50%;
+	margin-left: -275px;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
