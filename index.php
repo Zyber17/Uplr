@@ -128,6 +128,42 @@ include "./functions.php";
 					}else{
 					echo 'error';
 					}
+				}else{
+					echo '
+					<html>
+						<head>
+							<title>File not Found</title>
+							<link rel="stylesheet" type="text/css" href="style.css" />
+						</head>
+						<body>
+					<form action="index.php" method="post">
+								<div id="wrapper" class="loginbox margintop">
+									<div class="wrap2 loginbox">
+										<div id="in">
+												<h1 class="big">File not Found</h1>
+												<p class="foundless">
+													The file you were looking for was not found, sorry buckaroo.
+												<p class="foundless">
+													If someone sent you a bad link then go say grrr to them.
+												</p>
+												<p class="foundless">
+												Would you care to <a href="index.php">Login?</a>
+												</p>
+										</div>
+									</div>
+								</div>
+							</form>
+							<script type="text/javascript">
+							var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+							document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));
+							</script>
+							<script type="text/javascript">
+							try {
+							var pageTracker = _gat._getTracker("UA-8906457-11");
+							pageTracker._trackPageview();
+							} catch(err) {}</script>
+						</body>
+					</html>';
 				}
 			}
 			
